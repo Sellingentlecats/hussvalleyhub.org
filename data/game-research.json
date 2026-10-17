@@ -1,0 +1,15 @@
+{
+  "gameName": "Huss Valley",
+  "creator": "Huss Valley Official",
+  "placeId": "107535308163741",
+  "communityId": "281831224",
+  "observedOn": "2026-10-17",
+  "refreshStatus": "Historical source snapshot; the latest research attempt did not complete.",
+  "sources": [
+    {"name":"Official Roblox experience","url":"https://www.roblox.com/games/107535308163741/Huss-Valley","kind":"Primary","observed":"The experience linked Huss Valley Official as its creator. No code strings were visible in the public description when reviewed.","limit":"The public description does not establish whether codes were announced elsewhere."},
+    {"name":"Developer community","url":"https://www.roblox.com/communities/281831224","kind":"Primary","observed":"The linked community was named Huss Valley Official. Its public announcements area showed no announcements when reviewed.","limit":"This is a snapshot of the public area, not access to private messages or a complete announcement history."},
+    {"name":"Huss Valley Official Discord invite","url":"https://discord.com/invite/robloxhussvalley","kind":"Public invite","observed":"The public invite displayed Huss Valley Official | Roblox. IGN linked it as the game's code-announcement source.","limit":"Announcement history required sign-in and was not read. No Discord code message was independently verified."},
+    {"name":"IGN Huss Valley guide","url":"https://www.ign.com/wikis/huss-valley-roblox/Huss_Valley_Codes","kind":"Secondary","observed":"The guide listed TUESDAYSROCK, FIRSTCODEEVER and HUSS4CODE with rewards, and described Menu > Codes > Enter Code.","limit":"A publication's working-code label is not a successful redemption test by Huss Valley Hub."}
+  ],
+  "unknowns": ["No official Trello board was verified in the retained research.","No Reddit community was established as an authoritative source for this experience.","No public redemption-validation API was verified.","Boost stacking, activation rules, redemption quotas and region eligibility have not been established."]
+}

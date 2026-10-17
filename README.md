@@ -39,6 +39,10 @@ The homepage FAQ and FAQPage JSON-LD share one content array. This markup is a m
 
 No contact mailbox is configured. Public corrections use GitHub Issues. Search Console submission is pending Google authorization; there is no submitted-sitemap screenshot.
 
+## Game-source records
+
+`data/game-research.json` stores the experience identity and retained source observations, with explicit access limits. `lib/research.mjs` renders source coverage on the updates page, reward-check guidance on the redemption page and a missing-reward checklist on the troubleshooting page. The latest browser research did not complete; the added source coverage is explicitly a historical October 17 snapshot. No new codes or redemption results were verified, and no Discord/Reddit monitoring is running.
+
 ## Intent map
 
 | Route | Primary query |

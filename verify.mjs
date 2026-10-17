@@ -5,6 +5,13 @@ import {escapeHtml} from './lib/codes.mjs';
 import {verifyIcons} from './scripts/icons.mjs';
 const root=new URL('./dist/',import.meta.url);let count=0;
 await verifyIcons(root);
+const researchData=JSON.parse(await readFile(new URL('./data/game-research.json',import.meta.url),'utf8'));
+assert.equal(researchData.placeId,'107535308163741');
+const sourcePage=await readFile(new URL('code-updates/index.html',root),'utf8');
+assert(sourcePage.includes('not a new live check'));
+for(const item of researchData.sources){assert.equal(new URL(item.url).protocol,'https:');assert(sourcePage.includes(item.url));assert(item.observed&&item.limit);}
+assert((await readFile(new URL('how-to-redeem/index.html',root),'utf8')).includes('id="reward-checks"'));
+assert((await readFile(new URL('codes-not-working/index.html',root),'utf8')).includes('id="missing-reward"'));
 new Script(await readFile(new URL('copy.js',root),'utf8'));
 const homeFaq=await readFile(new URL('index.html',root),'utf8');
 const faqSchema=JSON.parse(homeFaq.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
