@@ -1,0 +1,20 @@
+name: Code or guide report
+description: Report a failed code, reward correction or changed redemption menu.
+title: "Code report: "
+body:
+  - type: markdown
+    attributes:
+      value: "Reports are public. Do not include passwords, login codes, email addresses or private account details."
+  - type: input
+    id: code
+    attributes:
+      label: Code or affected page
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Exact response and evidence
+      description: Include the test date, device, whether already redeemed, and original public source URL if available.
+    validations:
+      required: true
