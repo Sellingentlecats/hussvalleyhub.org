@@ -1,7 +1,7 @@
 import {mkdir,writeFile,readFile} from 'node:fs/promises';
 import {validateCodes,renderCodeTable,escapeHtml} from './lib/codes.mjs';
 import {writeIcons,verifyIcons} from './scripts/icons.mjs';
-import {sourceCoverage,rewardChecks,reportChecklist} from './lib/research.mjs';
+import {sourceCoverage,rewardChecks,reportChecklist,officialGameProfile} from './lib/research.mjs';
 const root=new URL('./dist/',import.meta.url);await mkdir(root,{recursive:true});
 await writeIcons(root);
 await verifyIcons(root);
@@ -32,7 +32,7 @@ ${renderCodeTable(codes,{id:'reported-codes',caption:'Reported codes · verify t
 {path:'/contact/',title:'Contact & Report a Code — Huss Valley Hub',description:'Report an incorrect reward, failed code or changed redemption menu with public evidence.',heading:'Contact & code reports',body:`<p class="lede">Found a broken code, an incorrect reward or a changed menu? Give us the evidence needed to check it.</p><h2>Report through GitHub</h2><p>${link(report,'Open a code report')}. You will need a GitHub account. Reports and attachments are publicly visible.</p><ul><li>The exact code and the page where you found the problem.</li><li>The exact game response, your test date and device type.</li><li>Whether you had already redeemed it.</li><li>A public announcement URL if you are reporting a new code or an expiry.</li></ul><p>For a site correction unrelated to a code, ${link('https://github.com/Sellingentlecats/hussvalleyhub.org/issues/new','open a general issue')}. Never include passwords, two-factor codes, recovery information or payment details. We cannot recover Roblox accounts or issue rewards.</p><h2>Email availability</h2><p>The proposed address <code>contact@hussvalleyhub.org</code> is not configured or verified for delivery. Do not send mail there yet. Use the public reporting route above until this notice changes.</p><h2>Before you report</h2><p>Check ${link('/how-to-redeem/','the redemption steps')}, ${link('/codes-not-working/','the troubleshooting guide')} and ${link('/code-updates/','the expiry archive')}. A source-review date does not mean a code was tested successfully.</p>`}
 ];
 
-pages.find(page=>page.path==='/how-to-redeem/').body+=rewardChecks();
+pages.find(page=>page.path==='/how-to-redeem/').body+=officialGameProfile(research)+rewardChecks();
 pages.find(page=>page.path==='/codes-not-working/').body+=reportChecklist();
 pages.find(page=>page.path==='/code-updates/').body+=sourceCoverage(research);
 const archived=dataset.codes.filter(item=>item.status==='expired');

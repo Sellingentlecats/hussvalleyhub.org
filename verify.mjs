@@ -8,7 +8,11 @@ await verifyIcons(root);
 const researchData=JSON.parse(await readFile(new URL('./data/game-research.json',import.meta.url),'utf8'));
 assert.equal(researchData.placeId,'107535308163741');
 const sourcePage=await readFile(new URL('code-updates/index.html',root),'utf8');
-assert(sourcePage.includes('not a new live check'));
+assert.equal(researchData.publicReviewCompleted,true);
+assert(sourcePage.includes('Public page rechecked'));
+assert(sourcePage.includes('not rechecked in this review'));
+assert.equal(researchData.profile.serverSize,30);
+assert((await readFile(new URL('how-to-redeem/index.html',root),'utf8')).includes('id="official-game-details"'));
 for(const item of researchData.sources){assert.equal(new URL(item.url).protocol,'https:');assert(sourcePage.includes(item.url));assert(item.observed&&item.limit);}
 assert((await readFile(new URL('how-to-redeem/index.html',root),'utf8')).includes('id="reward-checks"'));
 assert((await readFile(new URL('codes-not-working/index.html',root),'utf8')).includes('id="missing-reward"'));

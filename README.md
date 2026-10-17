@@ -41,7 +41,9 @@ No contact mailbox is configured. Public corrections use GitHub Issues. Search C
 
 ## Game-source records
 
-`data/game-research.json` stores the experience identity and retained source observations, with explicit access limits. `lib/research.mjs` renders source coverage on the updates page, reward-check guidance on the redemption page and a missing-reward checklist on the troubleshooting page. The latest browser research did not complete; the added source coverage is explicitly a historical October 17 snapshot. No new codes or redemption results were verified, and no Discord/Reddit monitoring is running.
+`data/game-research.json` stores the experience identity and per-source observations, with explicit access limits. The October 17 retry read the official Roblox experience, its linked community and the public Discord invite through the research Chrome. Roblox profile fields now include genre, subgenre, server capacity and the update date as displayed. The browser safety gate blocked IGN; its earlier code-source record is retained and labelled as not rechecked. Discord message history remains inaccessible without login. No new code or redemption result was verified, and no Discord/Reddit monitoring is running.
+
+`lib/research.mjs` renders official game details and reward checks on the redemption page, source coverage on the updates page and a missing-reward checklist on the troubleshooting page. Public-profile review dates are distinct from code-source dates and actual redemption tests.
 
 ## Intent map
 
