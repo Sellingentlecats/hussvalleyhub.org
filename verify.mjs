@@ -1,4 +1,13 @@
 import {readFile,readdir} from 'node:fs/promises';
 import assert from 'node:assert/strict';
+import {Script} from 'node:vm';
+import {escapeHtml} from './lib/codes.mjs';
 const root=new URL('./dist/',import.meta.url);let count=0;
+new Script(await readFile(new URL('copy.js',root),'utf8'));
+const homeFaq=await readFile(new URL('index.html',root),'utf8');
+const faqSchema=JSON.parse(homeFaq.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
+const visibleFaqs=[...homeFaq.matchAll(/<details><summary>(.*?)<\/summary><p>(.*?)<\/p><\/details>/gs)];
+assert.equal(faqSchema['@type'],'FAQPage');
+assert.equal(faqSchema.mainEntity.length,visibleFaqs.length);
+faqSchema.mainEntity.forEach((item,index)=>{assert.equal(escapeHtml(item.name),visibleFaqs[index][1]);assert.equal(escapeHtml(item.acceptedAnswer.text),visibleFaqs[index][2]);});
 async function walk(url){for(const e of await readdir(url,{withFileTypes:true})){const file=new URL(e.name+(e.isDirectory()?'/':''),url);if(e.isDirectory())await walk(file);else if(e.name.endsWith('.html')){let html=await readFile(file,'utf8');assert(!/[\u3400-\u9fff]/.test(html),'Non-English Chinese text');assert.equal((html.match(/<h1>/g)||[]).length,1);for(const [,href] of html.matchAll(/href="(\/[^"#]*)"/g)){await readFile(new URL(href.slice(1)+(href.endsWith('/')?'index.html':''),root));}count++;}}}await walk(root);assert.equal(count,8);const robots=await readFile(new URL('robots.txt',root),'utf8');assert.equal(robots.trim().split('\n').length,3);assert(robots.includes('Sitemap: https://hussvalleyhub.org/sitemap.xml'));assert(!robots.trim().endsWith('/'));let home=await readFile(new URL('index.html',root),'utf8');assert.equal((home.match(/data-copy=/g)||[]).length,3);assert(!home.includes('>Working</span>'));assert(!(await readdir(root)).includes('_redirects'));console.log('Verified 8 HTML pages, local links, code copy controls, English text, robots and 404 artifact.');

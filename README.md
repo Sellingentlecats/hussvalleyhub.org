@@ -33,7 +33,9 @@ If a Cloudflare Web Analytics public site token is provisioned, set `CF_WEB_ANAL
 
 ## Editorial maintenance
 
-Edit the `codes` data and page bodies in `build.mjs`, retaining original sources. `Source checked` is a source-review date, not a redemption date. Never mark a code working merely because another publication does. Keep expired entries and record evidence; use Unknown when the actual expiry date is unknown. Rebuild, check, commit, push and deploy.
+Edit `data/codes.json` and the page bodies in `build.mjs`, retaining original sources. `Source checked` is a source-review date, not a redemption date. Never mark a code working merely because another publication does. `lib/codes.mjs` rejects duplicate codes, invalid dates and working/expired statuses without verification dates and evidence URLs. Keep expired entries in the dataset; the build moves them into the archive instead of deleting them. Use null when the actual expiry date is unknown. Rebuild, check, commit, push and deploy.
+
+The homepage FAQ and FAQPage JSON-LD share one content array. This markup is a machine-readable representation, not a promise of a search ranking or rich-result placement. No scheduled monitoring or automatic in-game verification is enabled. Release and expiry dates remain unknown unless supported by evidence.
 
 No contact mailbox is configured. Public corrections use GitHub Issues. Search Console submission is pending Google authorization; there is no submitted-sitemap screenshot.
 

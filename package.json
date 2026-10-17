@@ -1,1 +1,1 @@
-{"name":"hussvalleyhub.org","version":"1.0.0","private":true,"scripts":{"build":"node build.mjs","check":"node verify.mjs"}}
+{"name":"hussvalleyhub.org","version":"1.0.0","private":true,"scripts":{"build":"node build.mjs","check":"node verify.mjs && node --test codes.test.mjs"}}
