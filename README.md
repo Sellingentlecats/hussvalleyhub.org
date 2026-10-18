@@ -1,6 +1,6 @@
 # Huss Valley Hub — replacement site
 
-The October 18, 2026 rebuild replaces the former visual implementation. Existing code data, official API snapshots, source logs and guide prose are retained. The former build and hub modules are archived under research/; their CSS is not loaded.
+The October 18, 2026 rebuild replaces the former visual implementation. Existing game data, official API snapshots, source logs and guide prose are retained. Code spellings now link directly to developer Discord announcements, with original excerpts. The former build and hub modules are archived under research/; their CSS is not loaded.
 
 ## Build and preview
 
@@ -31,8 +31,12 @@ The build creates 30 canonical content routes, three legacy aliases and a 404. C
 
 Applied roblox-site-architect and multi-game-codes-hub. Template header, footer, configuration and SEO responsibilities were copied for reference and adapted to the existing Node static runtime. No Next.js dependency or deployment pipeline is needed for this local review. See research/RSA-V2-20261018.md for decisions and limits.
 
-Official artwork comes from Roblox's experience-thumbnail API. Original size 768x432; hero is upscaled to 1280x720, sharing image cropped/resized to 1200x630. Credits remain visible. Gameplay prose and IGN code sources retain their dates. The ability ranking was retrieved from indexed Pro Game Guides text; direct full-page fetch returned 403. No new redemption test or automatic monitoring has been performed.
+Official artwork comes from Roblox's experience-thumbnail API. Original size 768x432; hero is upscaled to 1280x720, sharing image cropped/resized to 1200x630. Credits remain visible. Gameplay prose and IGN code sources retain their dates. The ability ranking was retrieved from indexed Pro Game Guides text; direct full-page fetch returned 403. The original three code spellings were confirmed in developer Discord game-updates; tuesdaysRock now matches the exact original capitalization. CANDY was added from a Head Moderator announcement with a new-server requirement; its reward amount is unknown and excluded from the calculator. Numeric reward reports for the original three remain separately attributed to IGN. No new redemption test or automatic monitoring has been performed.
 
 ## Existing production context
 
 Repository: https://github.com/Sellingentlecats/hussvalleyhub.org. Existing Cloudflare project: hussvalleyhub. Production branch previously recorded as codex/launch. The owner authorized deploying this replacement to the existing project on October 18, 2026. Source review and an accepted build alone do not establish successful deployment; verify the canonical domain after release.
+
+## Primary code provenance
+
+Each code carries sourceType, sourceQuote, author/role, server/channel/message IDs and an original-message permalink. Source review and publication timestamps stay in data for audits; visible code-date badges and Unverified/untested labels are omitted at the owner’s request. No entry is labelled tested or guaranteed working. Announcement and reward sources are separate. data/primary-source-audit.json records the completed follow-up after Discord access.

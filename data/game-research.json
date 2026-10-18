@@ -4,7 +4,7 @@
   "placeId": "107535308163741",
   "communityId": "281831224",
   "observedOn": "2026-10-18",
-  "refreshStatus": "Roblox APIs, the public Discord invite and IGN were fetched on October 18, 2026. No in-game redemption test was performed.",
+  "refreshStatus": "Developer Discord announcements were read on October 18, 2026 after the owner joined the server. All four listed code spellings have primary message links. Numeric rewards for the original three remain secondary reports. No in-game redemption test was performed.",
   "publicReviewCompleted": true,
   "profile": {
     "sourceUrl": "https://www.roblox.com/games/107535308163741/Huss-Valley",
@@ -39,13 +39,13 @@
       "limit": "This is a snapshot of the public area, not access to private messages or a complete announcement history."
     },
     {
-      "name": "Huss Valley Official Discord invite",
+      "name": "Previously retained Discord invite (not used as code evidence)",
       "url": "https://discord.com/invite/robloxhussvalley",
       "kind": "Public invite",
       "observedOn": "2026-10-18",
-      "reviewState": "Public invite API rechecked; messages inaccessible",
-      "observed": "The invite API identifies Huss Valley Official | Roblox. Announcement history was not fetched.",
-      "limit": "Announcement history was not read. The invite title alone does not verify any code or its expiry."
+      "reviewState": "Invite only; not the server used for primary code records",
+      "observed": "This invite displayed Huss Valley Official | Roblox. Its identity was not authenticated from its name alone. Primary code messages were subsequently read in the separate hussvalleyhq server.",
+      "limit": "Do not substitute this generic invite for a message-level code source."
     },
     {
       "name": "IGN Huss Valley guide",
@@ -64,6 +64,24 @@
       "reviewState": "Public API rechecked",
       "observed": "Server capacity 30; avatar type MorphToR15; private server creation disabled. Counters are a dated snapshot.",
       "limit": "API fields do not establish live controls, ability effects or redemption success."
+    },
+    {
+      "name": "Developer Discord game-updates",
+      "url": "https://discord.com/channels/1551684901907210300/1551691086504923206/",
+      "kind": "Primary",
+      "observedOn": "2026-10-18",
+      "reviewState": "Announcement messages read",
+      "observed": "Staff messages list FIRSTCODEEVER, HUSS4CODE, tuesdaysRock and CANDY. The CANDY follow-up requires a new server. Each code links its original message.",
+      "limit": "Discord sign-in/server access may be required. These announcements do not establish current redemption success or the numeric rewards reported by IGN."
+    },
+    {
+      "name": "Huss Valley server invite",
+      "url": "https://discord.com/invite/hussvalleyhq",
+      "kind": "Server entry, not a code message",
+      "observedOn": "2026-10-18",
+      "reviewState": "Owner joined; game-update announcements accessible",
+      "observed": "Server staff including David, Head Moderator divine and Development Team xMc publish updates linking the exact Roblox experience.",
+      "limit": "Use the per-code announcement permalink for code evidence, not this invite."
     }
   ],
   "unknowns": [

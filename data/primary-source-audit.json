@@ -1,0 +1,114 @@
+{
+  "reviewedOn": "2026-10-18",
+  "experiencePlaceId": "107535308163741",
+  "universeId": "10764627709",
+  "researchBrowserRun": "e29ede0ae5a7433aa941d7ad306f52d3",
+  "result": "Developer Discord game-updates messages were read after the owner joined. All three retained codes now have direct primary message links and excerpts; CANDY was additionally discovered. Source confirmation is not a redemption test.",
+  "sources": [
+    {
+      "url": "https://www.roblox.com/games/107535308163741/Huss-Valley",
+      "identity": "Official experience",
+      "result": "Public description read; no code strings observed."
+    },
+    {
+      "url": "https://www.roblox.com/communities/281831224/Huss-Valley-Official#!/about",
+      "identity": "Creator linked by official experience",
+      "result": "Public announcement area displayed no announcements."
+    },
+    {
+      "url": "https://www.roblox.com/users/11551976004/profile",
+      "identity": "Community owner David / CreatorExchangeInc",
+      "result": "Identity corroboration only, not a code announcement."
+    },
+    {
+      "url": "https://x.com/DavidinGaming",
+      "identity": "Developer-associated public account: bio states Huss Valley and Creator Exchange; posts discuss our next map. Not linked from the logged-out Roblox social area.",
+      "result": "Accessible timeline read; no target code strings observed in the loaded posts. This is not an exhaustive account search."
+    },
+    {
+      "url": "https://x.com/CreatorGamesHQ",
+      "identity": "Team account linked in developer posts",
+      "result": "Accessible timeline read; no target code strings observed in the loaded posts."
+    },
+    {
+      "url": "https://discord.com/invite/xBWcECXK5a",
+      "identity": "Invite directly linked in DavidinGaming bio",
+      "result": "Creator Exchange [BETA] invitation. Login/registration required; no messages read."
+    },
+    {
+      "url": "https://discord.com/invite/hussvalleyhq",
+      "identity": "Huss Valley server where Development Team and Head Moderator staff publish game updates linking the exact Roblox experience.",
+      "result": "Initially login-gated. After the owner joined, read game-updates messages and obtained all four code announcements plus the CANDY follow-up."
+    },
+    {
+      "url": "https://discord.com/invite/robloxhussvalley",
+      "identity": "Previously retained invite, titled Huss Valley Official | Roblox. Title alone is not developer authentication.",
+      "result": "Public invite only; no message provenance established."
+    },
+    {
+      "url": "https://www.roblox.com/events/8893392042118480490",
+      "identity": "Halloween event linked from official game, hosted by Huss Valley Official",
+      "result": "Public event description read; no codes."
+    },
+    {
+      "url": "https://www.roblox.com/events/2691076433090052674",
+      "identity": "Halloween Part 2 linked from official game, hosted by Huss Valley Official",
+      "result": "Public event description read; no codes."
+    }
+  ],
+  "inGameNoticeboard": {
+    "accessed": false,
+    "reason": "No authenticated Roblox game session or usable gameplay-control surface was available; public website notices are not a substitute."
+  },
+  "searchCoverage": [
+    "Exact three code strings on x.com: no relevant Huss Valley developer code post found in the returned results.",
+    "Exact code strings combined with discord.com/channels: Google reported no exact results; unquoted fallback results were not treated as evidence."
+  ],
+  "codes": [
+    {
+      "code": "tuesdaysRock",
+      "primarySourceStatus": "announcement-read",
+      "primarySourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1559642321857937482",
+      "originalQuote": "Redeem tuesdaysRock for a free reward!",
+      "quoteAuthor": "David",
+      "publishedAt": "2026-10-13T19:01:46.284Z",
+      "redemptionStatus": "unverified"
+    },
+    {
+      "code": "FIRSTCODEEVER",
+      "primarySourceStatus": "announcement-read",
+      "primarySourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1558550204687450143",
+      "originalQuote": "CODES\nFIRSTCODEEVER\nHUSS4CODE",
+      "quoteAuthor": "divine",
+      "publishedAt": "2026-10-10T18:42:05.260Z",
+      "redemptionStatus": "unverified"
+    },
+    {
+      "code": "HUSS4CODE",
+      "primarySourceStatus": "announcement-read",
+      "primarySourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1558550204687450143",
+      "originalQuote": "CODES\nFIRSTCODEEVER\nHUSS4CODE",
+      "quoteAuthor": "divine",
+      "publishedAt": "2026-10-10T18:42:05.260Z",
+      "redemptionStatus": "unverified"
+    },
+    {
+      "code": "CANDY",
+      "primarySourceStatus": "announcement-read",
+      "primarySourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1561082037517942916",
+      "originalQuote": "NEW CODE : CANDY",
+      "quoteAuthor": "divine",
+      "publishedAt": "2026-10-17T18:22:41.246Z",
+      "redemptionStatus": "unverified"
+    }
+  ],
+  "followUp": {
+    "discordInvite": "https://discord.com/invite/hussvalleyhq",
+    "serverId": "1551684901907210300",
+    "channelId": "1551691086504923206",
+    "access": "Owner joined and authorized research through the signed-in Chrome. Only announcement content was retained.",
+    "sourceRecord": "research/primary-20261018/discord-code-messages.json",
+    "rewards": "Original three amounts remain secondary IGN reports. Primary posts do not state amounts; CANDY reward unknown."
+  },
+  "presentation": "Owner requested no Unverified/untested labels or visible code review/publication dates. Publication and review times are retained internally for provenance. No code is labelled tested or guaranteed working."
+}

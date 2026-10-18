@@ -25,3 +25,23 @@ test('rendered code strings and rewards are escaped rather than interpreted as H
   const html=renderCodeTable([item],{id:'codes',caption:'Codes'});
   assert(html.includes('&lt;CODE&gt;'));assert(!html.includes('<img'));
 });
+
+test('primary evidence requires exact spelling, publication and a message permalink',()=>{
+  const data=structuredClone(original);
+  data.codes[0].sourceUrl='https://discord.com/invite/hussvalleyhq';
+  assert.throws(()=>validateCodes(data),/message permalink/);
+  data.codes[0]=structuredClone(original.codes[0]);
+  data.codes[0].sourceQuote='Redeem TUESDAYSROCK for a free reward!';
+  assert.throws(()=>validateCodes(data),/exact code excerpt/);
+});
+
+test('new announcement with unknown reward cannot supply calculator units',()=>{
+  const candy=original.codes.find(c=>c.code==='CANDY');
+  assert(candy);
+  assert.equal(candy.rewardUnits,null);
+  assert.equal(candy.rewardSource,null);
+  assert.equal(candy.verifiedAt,null);
+  assert(candy.requirements.sourceUrl.endsWith('/1561083118356529252'));
+  const known=original.codes.filter(c=>c.rewardUnits);
+  assert.equal(known.reduce((sum,c)=>sum+c.rewardUnits.gems,0),100);
+});

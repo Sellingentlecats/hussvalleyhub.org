@@ -2,40 +2,150 @@
   "sourceReviewedAt": "2026-10-18",
   "codes": [
     {
-      "code": "TUESDAYSROCK",
+      "code": "tuesdaysRock",
       "reward": "5 Wheel Spins",
       "status": "unverified",
-      "sourceName": "IGN",
-      "sourceUrl": "https://www.ign.com/wikis/huss-valley-roblox/Huss_Valley_Codes",
+      "sourceName": "Developer Discord \u00b7 David",
+      "sourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1559642321857937482",
       "sourceCheckedAt": "2026-10-18",
       "verifiedAt": null,
       "expiresAt": null,
       "expiredAt": null,
-      "evidenceUrl": null
+      "evidenceUrl": null,
+      "rewardSource": {
+        "name": "IGN",
+        "url": "https://www.ign.com/wikis/huss-valley-roblox/Huss_Valley_Codes",
+        "checkedAt": "2026-10-18",
+        "kind": "secondary"
+      },
+      "sourceType": "primary",
+      "sourceChannelName": "game-updates",
+      "sourceServerName": "Huss Valley",
+      "sourceServerId": "1551684901907210300",
+      "sourceChannelId": "1551691086504923206",
+      "previousSpellings": [
+        "TUESDAYSROCK"
+      ],
+      "sourceQuote": "Redeem tuesdaysRock for a free reward!",
+      "sourceAuthor": "David",
+      "sourceAuthorRole": "Game team",
+      "publishedAt": "2026-10-13T19:01:46.284Z",
+      "sourceMessageId": "1559642321857937482",
+      "rewardUnits": {
+        "gems": 0,
+        "spins": 5,
+        "gemBoost": 0,
+        "coinBoost": 0,
+        "emotes": 0,
+        "titles": 0
+      }
     },
     {
       "code": "FIRSTCODEEVER",
       "reward": "2 \u00d7 15-minute Gem Boosts, a random emote, and 100 Gems",
       "status": "unverified",
-      "sourceName": "IGN",
-      "sourceUrl": "https://www.ign.com/wikis/huss-valley-roblox/Huss_Valley_Codes",
+      "sourceName": "Developer Discord \u00b7 divine",
+      "sourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1558550204687450143",
       "sourceCheckedAt": "2026-10-18",
       "verifiedAt": null,
       "expiresAt": null,
       "expiredAt": null,
-      "evidenceUrl": null
+      "evidenceUrl": null,
+      "rewardSource": {
+        "name": "IGN",
+        "url": "https://www.ign.com/wikis/huss-valley-roblox/Huss_Valley_Codes",
+        "checkedAt": "2026-10-18",
+        "kind": "secondary"
+      },
+      "sourceType": "primary",
+      "sourceChannelName": "game-updates",
+      "sourceServerName": "Huss Valley",
+      "sourceServerId": "1551684901907210300",
+      "sourceChannelId": "1551691086504923206",
+      "sourceQuote": "CODES\nFIRSTCODEEVER\nHUSS4CODE",
+      "sourceQuoteFormat": "list",
+      "sourceAuthor": "divine",
+      "sourceAuthorRole": "Head Moderator",
+      "publishedAt": "2026-10-10T18:42:05.260Z",
+      "sourceEditedAt": "2026-10-10T18:58:08.416Z",
+      "sourceMessageId": "1558550204687450143",
+      "rewardUnits": {
+        "gems": 100,
+        "spins": 0,
+        "gemBoost": 2,
+        "coinBoost": 0,
+        "emotes": 1,
+        "titles": 0
+      }
     },
     {
       "code": "HUSS4CODE",
       "reward": "2 \u00d7 15-minute Gem Boosts, 2 \u00d7 15-minute Coin Boosts, and the First title",
       "status": "unverified",
-      "sourceName": "IGN",
-      "sourceUrl": "https://www.ign.com/wikis/huss-valley-roblox/Huss_Valley_Codes",
+      "sourceName": "Developer Discord \u00b7 divine",
+      "sourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1558550204687450143",
       "sourceCheckedAt": "2026-10-18",
       "verifiedAt": null,
       "expiresAt": null,
       "expiredAt": null,
-      "evidenceUrl": null
+      "evidenceUrl": null,
+      "rewardSource": {
+        "name": "IGN",
+        "url": "https://www.ign.com/wikis/huss-valley-roblox/Huss_Valley_Codes",
+        "checkedAt": "2026-10-18",
+        "kind": "secondary"
+      },
+      "sourceType": "primary",
+      "sourceChannelName": "game-updates",
+      "sourceServerName": "Huss Valley",
+      "sourceServerId": "1551684901907210300",
+      "sourceChannelId": "1551691086504923206",
+      "sourceQuote": "CODES\nFIRSTCODEEVER\nHUSS4CODE",
+      "sourceQuoteFormat": "list",
+      "sourceAuthor": "divine",
+      "sourceAuthorRole": "Head Moderator",
+      "publishedAt": "2026-10-10T18:42:05.260Z",
+      "sourceEditedAt": "2026-10-10T18:58:08.416Z",
+      "sourceMessageId": "1558550204687450143",
+      "rewardUnits": {
+        "gems": 0,
+        "spins": 0,
+        "gemBoost": 2,
+        "coinBoost": 2,
+        "emotes": 0,
+        "titles": 1
+      }
+    },
+    {
+      "code": "CANDY",
+      "reward": "Reward not specified in the announcement",
+      "status": "unverified",
+      "sourceName": "Developer Discord \u00b7 divine",
+      "sourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1561082037517942916",
+      "sourceCheckedAt": "2026-10-18",
+      "sourceType": "primary",
+      "sourceQuote": "NEW CODE : CANDY",
+      "sourceAuthor": "divine",
+      "sourceAuthorRole": "Head Moderator",
+      "sourceServerName": "Huss Valley",
+      "sourceServerId": "1551684901907210300",
+      "sourceChannelName": "game-updates",
+      "sourceChannelId": "1551691086504923206",
+      "sourceMessageId": "1561082037517942916",
+      "publishedAt": "2026-10-17T18:22:41.246Z",
+      "verifiedAt": null,
+      "expiresAt": null,
+      "expiredAt": null,
+      "evidenceUrl": null,
+      "rewardSource": null,
+      "rewardUnits": null,
+      "requirements": {
+        "text": "Use a new server for this code.",
+        "quote": "^ must be in a new server for it to apply",
+        "sourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1561083118356529252",
+        "sourceAuthor": "divine",
+        "publishedAt": "2026-10-17T18:26:58.938Z"
+      }
     }
   ]
 }
