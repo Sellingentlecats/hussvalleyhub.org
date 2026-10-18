@@ -1,0 +1,97 @@
+{
+  "sourceUrl": "https://progameguides.com/roblox/huss-valley-ability-tier-list/",
+  "sourceName": "Pro Game Guides",
+  "publishedOn": "2026-10-17",
+  "reviewedOn": "2026-10-18",
+  "status": "Publisher ranking, not independently tested",
+  "items": [
+    {
+      "id": "cloak",
+      "name": "Cloak",
+      "role": "Runner",
+      "tier": "S",
+      "gems": 1625,
+      "category": "Concealment"
+    },
+    {
+      "id": "pocket-door",
+      "name": "Pocket Door",
+      "role": "Runner",
+      "tier": "S",
+      "gems": 875,
+      "category": "Barrier"
+    },
+    {
+      "id": "bowling-ball",
+      "name": "Bowling Ball",
+      "role": "Chaser",
+      "tier": "S",
+      "gems": 600,
+      "category": "Interruption"
+    },
+    {
+      "id": "one-hit-shield",
+      "name": "One Hit Shield",
+      "role": "Runner",
+      "tier": "S",
+      "gems": 0,
+      "category": "Defense"
+    },
+    {
+      "id": "emergency-airhorn",
+      "name": "Emergency Airhorn",
+      "role": "Runner",
+      "tier": "A",
+      "gems": null,
+      "category": "Repulsion"
+    },
+    {
+      "id": "rocket-shoes",
+      "name": "Rocket Shoes",
+      "role": "Chaser",
+      "tier": "A",
+      "gems": null,
+      "category": "Movement"
+    },
+    {
+      "id": "rufus-leash",
+      "name": "Rufus\u2019s Leash",
+      "role": "Chaser",
+      "tier": "A",
+      "gems": null,
+      "category": "Pull"
+    },
+    {
+      "id": "big-dagger",
+      "name": "Big Dagger",
+      "role": "Chaser",
+      "tier": "B",
+      "gems": null,
+      "category": "Reach"
+    },
+    {
+      "id": "broken-vow",
+      "name": "Broken Vow",
+      "role": "Chaser",
+      "tier": "B",
+      "gems": null,
+      "category": "Conversion"
+    },
+    {
+      "id": "inflatable-decoy",
+      "name": "Inflatable Decoy",
+      "role": "Runner",
+      "tier": "B",
+      "gems": null,
+      "category": "Distraction"
+    },
+    {
+      "id": "bear-trap",
+      "name": "Bear Trap",
+      "role": "Chaser",
+      "tier": "C",
+      "gems": 0,
+      "category": "Trap"
+    }
+  ]
+}

@@ -1,17 +1,20 @@
-# Huss Valley Hub design
+# Huss Valley Hub — game companion
 
 ## Direction
-Read and operate: a field reference table with editorial guide pages. The owner's explicit table-first brief controls the composition. No hero imagery, carousel, invented metrics or decorative illustration. The self-directed implementation follows the owner's delegated execution request.
+The October 18 rebuild replaces the retired paper-and-forest editorial site. No earlier CSS is imported. This is a game companion portal: bold condensed display type, cool near-black surfaces, lime task buttons, violet evidence links and blue supporting accents. Official game artwork carries the game identity. The existing research and prose remain retained data.
 
 ## Tokens
-- Paper `#f6f5ef`, ink `#172d26`, link/accent `#155d43`, secondary text `#506158`.
-- Rules `#c9d0c6`, notice surface `#e7ebdf`, table alternation `#fffef9`.
-- Georgia for reading and headings, native sans for navigation and table data, monospace only for literal codes.
-- Main width 1160px maximum; 32px outer margins on desktop, 16px on narrow screens.
-- Heading size 2–3.2rem; body 17px desktop, 16px narrow; readable guide measure 72 characters.
+- Background #11131a; panel #1a1d27; raised #232735; line #353a4a.
+- Text #f5f6fb; secondary #afb5c8; lime #c5f857; violet #bdabff; blue #8ecbff.
+- Barlow Condensed 800 for large headings; Inter for interface and reading, locally hosted.
+- Main width 1240px; desktop gutters 32px, mobile 16px.
+- Rounded panels 18px, controls 8px. Use short labels, authored SVG icons and clear section spacing.
 
-## Structure and states
-All pages share brand, four primary navigation links and all seven footer links. Home opens with code/status/date/reward/source. On narrow screens each semantic table row becomes a labelled record; no content is hidden. Copy controls show a live status and have a manual-selection fallback. Focus rings, text selection and reduced-motion preference are supported. Empty expired-code state explicitly distinguishes missing evidence from proof of validity.
+## Surface structure
+Home is a split introduction and real official game image, followed by a game identity strip, three tool entrances, reported codes, and a beginner-guide feature. Codes live at /codes/. The ability tier board filters by role. Calculator selections sum reward units and update a Gem goal. Guides use readable article text and a desktop sidebar. Wiki entries derive from abilities.json.
 
-## Inspection
-Pages deployment inspected on October 17, 2026. Desktop table was visible immediately; a 390px viewport showed no horizontal overflow and the FIRSTCODEEVER copy action produced a success message. This is browser emulation, not a test over a real phone's cellular network. Mechanical detector warned about the warm paper palette; it is retained as the editorial reference surface. Its thick-border warning matched the active navigation underline, not a rounded card.
+## Responsive behavior and states
+Mobile navigation collapses behind a labelled button with aria-expanded. Hero and tools stack. Code tables become labelled records. Calculator inputs and outputs stack. The tier board retains role filtering and a two-column tile layout. Visible keyboard focus, copy success/error, empty expiry archive, unknown prices, validation errors and reduced motion are implemented.
+
+## Evidence
+Desktop and 390px mobile inspected on October 18, 2026. Copy, navigation, role filtering, positive/custom and invalid calculator input checked. Official artwork is sourced from the Roblox thumbnail API; original 768x432, hero upscaled to 1280x720. Credits and source limitations are retained. This is local review only; no deployment was performed.

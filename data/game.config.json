@@ -1,0 +1,152 @@
+{
+  "seo": {
+    "siteTitle": "Huss Valley Hub — Codes, Wiki & Tools",
+    "baseUrl": "https://hussvalleyhub.org",
+    "primaryKeywords": [
+      "huss valley codes",
+      "huss valley tier list",
+      "huss valley guide"
+    ],
+    "themeColor": "#11131a"
+  },
+  "features": {
+    "codes": true,
+    "tierList": true,
+    "valueCalculator": true,
+    "buildPlanner": false
+  },
+  "routes": [
+    {
+      "path": "/",
+      "title": "Huss Valley Hub — Codes, Tier List, Wiki & Tools"
+    },
+    {
+      "path": "/codes/",
+      "title": "Huss Valley Codes (October 2026) — Rewards & Redemption"
+    },
+    {
+      "path": "/calculator/",
+      "title": "Huss Valley Calculator — Code Rewards & Gem Goals"
+    },
+    {
+      "path": "/tier-list/",
+      "title": "Huss Valley Tier List — Runner & Chaser Abilities"
+    },
+    {
+      "path": "/wiki/",
+      "title": "Huss Valley Wiki — Game, Currencies, Abilities & Controls"
+    },
+    {
+      "path": "/terms/",
+      "title": "Terms of Use — Huss Valley Hub"
+    },
+    {
+      "path": "/about/",
+      "title": "About Huss Valley Hub | Huss Valley Hub"
+    },
+    {
+      "path": "/code-updates/",
+      "title": "Code updates & expired codes | Huss Valley Hub"
+    },
+    {
+      "path": "/codes-not-working/",
+      "title": "Huss Valley code not working? | Huss Valley Hub"
+    },
+    {
+      "path": "/contact/",
+      "title": "Contact & code reports | Huss Valley Hub"
+    },
+    {
+      "path": "/game/",
+      "title": "Huss Valley game & official links | Huss Valley Hub"
+    },
+    {
+      "path": "/guides/",
+      "title": "Huss Valley game guides | Huss Valley Hub"
+    },
+    {
+      "path": "/how-to-redeem/",
+      "title": "How to redeem Huss Valley codes | Huss Valley Hub"
+    },
+    {
+      "path": "/privacy/",
+      "title": "Privacy policy | Huss Valley Hub"
+    },
+    {
+      "path": "/guides/beginner/",
+      "title": "Huss Valley beginner guide | Huss Valley Hub"
+    },
+    {
+      "path": "/guides/chaser/",
+      "title": "Chaser practice guide | Huss Valley Hub"
+    },
+    {
+      "path": "/guides/controls/",
+      "title": "Huss Valley controls & device help | Huss Valley Hub"
+    },
+    {
+      "path": "/guides/rewards/",
+      "title": "Huss Valley rewards & progression | Huss Valley Hub"
+    },
+    {
+      "path": "/guides/runner/",
+      "title": "Runner practice guide | Huss Valley Hub"
+    },
+    {
+      "path": "/wiki/abilities/cloak/",
+      "title": "Cloak — Huss Valley Ability Reference"
+    },
+    {
+      "path": "/wiki/abilities/pocket-door/",
+      "title": "Pocket Door — Huss Valley Ability Reference"
+    },
+    {
+      "path": "/wiki/abilities/bowling-ball/",
+      "title": "Bowling Ball — Huss Valley Ability Reference"
+    },
+    {
+      "path": "/wiki/abilities/one-hit-shield/",
+      "title": "One Hit Shield — Huss Valley Ability Reference"
+    },
+    {
+      "path": "/wiki/abilities/emergency-airhorn/",
+      "title": "Emergency Airhorn — Huss Valley Ability Reference"
+    },
+    {
+      "path": "/wiki/abilities/rocket-shoes/",
+      "title": "Rocket Shoes — Huss Valley Ability Reference"
+    },
+    {
+      "path": "/wiki/abilities/rufus-leash/",
+      "title": "Rufus’s Leash — Huss Valley Ability Reference"
+    },
+    {
+      "path": "/wiki/abilities/big-dagger/",
+      "title": "Big Dagger — Huss Valley Ability Reference"
+    },
+    {
+      "path": "/wiki/abilities/broken-vow/",
+      "title": "Broken Vow — Huss Valley Ability Reference"
+    },
+    {
+      "path": "/wiki/abilities/inflatable-decoy/",
+      "title": "Inflatable Decoy — Huss Valley Ability Reference"
+    },
+    {
+      "path": "/wiki/abilities/bear-trap/",
+      "title": "Bear Trap — Huss Valley Ability Reference"
+    }
+  ],
+  "socials": {
+    "roblox": "https://www.roblox.com/games/107535308163741/Huss-Valley",
+    "discord": "https://discord.com/invite/robloxhussvalley"
+  },
+  "game": {
+    "name": "Huss Valley",
+    "robloxId": "107535308163741",
+    "universeId": "10764627709",
+    "developer": "Huss Valley Official",
+    "genre": "Action",
+    "lastUpdated": "2026-10-18"
+  }
+}

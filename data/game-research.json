@@ -3,22 +3,80 @@
   "creator": "Huss Valley Official",
   "placeId": "107535308163741",
   "communityId": "281831224",
-  "observedOn": "2026-10-17",
-  "refreshStatus": "Public Roblox pages and the Discord invite were rechecked on October 17, 2026. The code-source guide was not rechecked, and no code was redeemed.",
+  "observedOn": "2026-10-18",
+  "refreshStatus": "Roblox APIs, the public Discord invite and IGN were fetched on October 18, 2026. No in-game redemption test was performed.",
   "publicReviewCompleted": true,
   "profile": {
     "sourceUrl": "https://www.roblox.com/games/107535308163741/Huss-Valley",
-    "observedOn": "2026-10-17",
-    "lastUpdatedAsDisplayed": "2026-10-16",
+    "observedOn": "2026-10-18",
+    "lastUpdatedAsDisplayed": "2026-10-18",
     "genre": "Action",
     "subgenre": "Battlegrounds & Fighting",
-    "serverSize": 30
+    "serverSize": 30,
+    "displayName": "[\ud83c\udf83] Huss Valley",
+    "avatarType": "MorphToR15",
+    "privateServersAllowed": false,
+    "createdAt": "2026-08-31T16:39:36.989Z",
+    "updatedAt": "2026-10-18T03:17:32.964Z"
   },
   "sources": [
-    {"name":"Official Roblox experience","url":"https://www.roblox.com/games/107535308163741/Huss-Valley","kind":"Primary","observedOn":"2026-10-17","reviewState":"Public page rechecked","observed":"The experience links Huss Valley Official as its creator. Its public description contained no code strings in this review. The displayed game-update date was October 16, 2026.","limit":"A game-update date is not a code-release date. The public description does not establish whether codes were announced elsewhere."},
-    {"name":"Developer community","url":"https://www.roblox.com/communities/281831224","kind":"Primary","observedOn":"2026-10-17","reviewState":"Public page rechecked","observed":"The linked community is named Huss Valley Official. Its public announcements area showed no announcements in this review.","limit":"This is a snapshot of the public area, not access to private messages or a complete announcement history."},
-    {"name":"Huss Valley Official Discord invite","url":"https://discord.com/invite/robloxhussvalley","kind":"Public invite","observedOn":"2026-10-17","reviewState":"Invite only; messages not accessible","observed":"The public invite displayed Huss Valley Official | Roblox and required account creation or sign-in to continue. The retained IGN review links this invite as the game's announcement source.","limit":"Announcement history was not read. The invite title alone does not verify any code or its expiry."},
-    {"name":"IGN Huss Valley guide","url":"https://www.ign.com/wikis/huss-valley-roblox/Huss_Valley_Codes","kind":"Secondary","observedOn":"2026-10-17","reviewState":"Earlier source record; not rechecked in this review","observed":"The retained guide record lists TUESDAYSROCK, FIRSTCODEEVER and HUSS4CODE with rewards, and describes Menu > Codes > Enter Code.","limit":"These details come from the earlier review. A publication's working-code label is not a successful redemption test by Huss Valley Hub."}
+    {
+      "name": "Official Roblox experience",
+      "url": "https://www.roblox.com/games/107535308163741/Huss-Valley",
+      "kind": "Primary",
+      "observedOn": "2026-10-18",
+      "reviewState": "Public API rechecked",
+      "observed": "Official API identifies Huss Valley Official, place 107535308163741 and universe 10764627709. The display name carries a Halloween marker. Description: RUN!!. Last updated 2026-10-18 UTC.",
+      "limit": "A game-update date is not a code-release date. The public description does not establish whether codes were announced elsewhere."
+    },
+    {
+      "name": "Developer community",
+      "url": "https://www.roblox.com/communities/281831224",
+      "kind": "Primary",
+      "observedOn": "2026-10-18",
+      "reviewState": "Public API rechecked",
+      "observed": "The Roblox community API returns Huss Valley Official, description Playing tag in huss valley, and no public shout.",
+      "limit": "This is a snapshot of the public area, not access to private messages or a complete announcement history."
+    },
+    {
+      "name": "Huss Valley Official Discord invite",
+      "url": "https://discord.com/invite/robloxhussvalley",
+      "kind": "Public invite",
+      "observedOn": "2026-10-18",
+      "reviewState": "Public invite API rechecked; messages inaccessible",
+      "observed": "The invite API identifies Huss Valley Official | Roblox. Announcement history was not fetched.",
+      "limit": "Announcement history was not read. The invite title alone does not verify any code or its expiry."
+    },
+    {
+      "name": "IGN Huss Valley guide",
+      "url": "https://www.ign.com/wikis/huss-valley-roblox/Huss_Valley_Codes",
+      "kind": "Secondary",
+      "observedOn": "2026-10-18",
+      "reviewState": "Full public article rechecked",
+      "observed": "Article updated October 16 lists the same three codes and rewards. Redemption route is Menu > Codes > Enter Code. No expired codes are listed.",
+      "limit": "Full article fetched October 18; its last published update is October 16. A publisher working-code label does not establish a redemption test by Huss Valley Hub."
+    },
+    {
+      "name": "Roblox game API",
+      "url": "https://games.roblox.com/v1/games?universeIds=10764627709",
+      "kind": "Primary",
+      "observedOn": "2026-10-18",
+      "reviewState": "Public API rechecked",
+      "observed": "Server capacity 30; avatar type MorphToR15; private server creation disabled. Counters are a dated snapshot.",
+      "limit": "API fields do not establish live controls, ability effects or redemption success."
+    }
   ],
-  "unknowns": ["No official Trello board was verified in the retained research.","No Reddit community was established as an authoritative source for this experience.","No public redemption-validation API was verified.","Boost stacking, activation rules, redemption quotas and region eligibility have not been established."]
+  "unknowns": [
+    "No official Trello board was verified in the retained research.",
+    "No Reddit community was established as an authoritative source for this experience.",
+    "No public redemption-validation API was verified.",
+    "Boost stacking, activation rules, redemption quotas and region eligibility have not been established."
+  ],
+  "universeId": "10764627709",
+  "snapshot": {
+    "playing": 62567,
+    "visits": 148317866,
+    "favoritedCount": 263717,
+    "maxPlayers": 30
+  }
 }
