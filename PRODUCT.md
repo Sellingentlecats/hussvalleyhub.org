@@ -16,4 +16,5 @@ Preserve existing data and research. Do not invent codes, rewards, expiry dates,
 The former visual style is explicitly rejected by the owner. Use the new charcoal/lime game-portal system in DESIGN.md, official game artwork, condensed sans headings and sans reading type. The former homepage table-first composition is retired.
 
 ## Delivery
-The owner approved replacing the existing production website on October 18, 2026. Deploy only to the existing hussvalleyhub project and hussvalleyhub.org; no other sites or recurring automations are in scope.
+The owner approved replacing the existing production website on October 18, 2026. Deploy only to the existing hussvalleyhub project and hussvalleyhub.org; no other sites are in scope. The owner also authorized a daily 10:00 Asia/Shanghai Discord code-monitoring task in this chat: publish newly announced codes, archive codes with explicit expiry evidence, and synchronize the homepage after successful validation. Preserve primary message links and exact quotes; do not display verification badges or dates.
+
