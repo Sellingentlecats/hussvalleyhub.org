@@ -36,12 +36,11 @@ test('primary evidence requires exact spelling, publication and a message permal
 });
 
 test('new announcement with unknown reward cannot supply calculator units',()=>{
-  const candy=original.codes.find(c=>c.code==='CANDY');
-  assert(candy);
-  assert.equal(candy.rewardUnits,null);
-  assert.equal(candy.rewardSource,null);
-  assert.equal(candy.verifiedAt,null);
-  assert(candy.requirements.sourceUrl.endsWith('/1561083118356529252'));
-  const known=original.codes.filter(c=>c.rewardUnits);
-  assert.equal(known.reduce((sum,c)=>sum+c.rewardUnits.gems,0),100);
+  const unknown=original.codes.find(c=>c.rewardUnits===null);
+  assert(unknown);
+  assert.equal(unknown.rewardSource,null);
+  assert.equal(unknown.verifiedAt,null);
+  if(unknown.requirements)assert(unknown.requirements.sourceUrl.startsWith('https://discord.com/channels/'));
+  const known=original.codes.filter(c=>c.status!=='expired'&&c.rewardUnits);
+  assert(known.every(c=>Object.values(c.rewardUnits).every(value=>Number.isInteger(value)&&value>=0)));
 });

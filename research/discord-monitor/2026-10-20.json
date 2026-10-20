@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-20T02:00:15.000Z",
+  "channelUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206",
+  "access": "User-authorized signed-in Chrome; channel live tail visibly rendered",
+  "startingCursor": "1561099182511751279",
+  "observedTailMessage": {
+    "messageId": "1561099182511751279",
+    "url": "https://discord.com/channels/1551684901907210300/1551691086504923206/1561099182511751279",
+    "author": "albie",
+    "role": "Head Moderator",
+    "excerpt": "we noticed a lot of lag in the new update, i'm fixing it right now. one of the skeletons kept dropping his bones laying around causing lag... BRB fixing!!",
+    "publishedAt": "2026-10-17T19:30:48.931Z"
+  },
+  "newMessagesAfterCursor": 0,
+  "result": {
+    "newCodes": [],
+    "confirmedExpiredCodes": [],
+    "rewardChanges": [],
+    "staffReplies": [],
+    "deactivationAnnouncements": [],
+    "latestMessageId": "1561099182511751279",
+    "siteContentChanged": false
+  },
+  "note": "Live Discord view was at the end of game-updates and showed the same final message as the prior cursor; no later message was visible."
+}
