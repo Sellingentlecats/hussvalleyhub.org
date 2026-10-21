@@ -1,11 +1,11 @@
 {
-  "sourceReviewedAt": "2026-10-18",
+  "sourceReviewedAt": "2026-10-21",
   "codes": [
     {
       "code": "tuesdaysRock",
       "reward": "5 Wheel Spins",
       "status": "unverified",
-      "sourceName": "Developer Discord \u00b7 David",
+      "sourceName": "Developer Discord · David",
       "sourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1559642321857937482",
       "sourceCheckedAt": "2026-10-18",
       "verifiedAt": null,
@@ -42,9 +42,9 @@
     },
     {
       "code": "FIRSTCODEEVER",
-      "reward": "2 \u00d7 15-minute Gem Boosts, a random emote, and 100 Gems",
+      "reward": "2 × 15-minute Gem Boosts, a random emote, and 100 Gems",
       "status": "unverified",
-      "sourceName": "Developer Discord \u00b7 divine",
+      "sourceName": "Developer Discord · divine",
       "sourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1558550204687450143",
       "sourceCheckedAt": "2026-10-18",
       "verifiedAt": null,
@@ -80,9 +80,9 @@
     },
     {
       "code": "HUSS4CODE",
-      "reward": "2 \u00d7 15-minute Gem Boosts, 2 \u00d7 15-minute Coin Boosts, and the First title",
+      "reward": "2 × 15-minute Gem Boosts, 2 × 15-minute Coin Boosts, and the First title",
       "status": "unverified",
-      "sourceName": "Developer Discord \u00b7 divine",
+      "sourceName": "Developer Discord · divine",
       "sourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1558550204687450143",
       "sourceCheckedAt": "2026-10-18",
       "verifiedAt": null,
@@ -120,7 +120,7 @@
       "code": "CANDY",
       "reward": "Reward not specified in the announcement",
       "status": "unverified",
-      "sourceName": "Developer Discord \u00b7 divine",
+      "sourceName": "Developer Discord · divine",
       "sourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1561082037517942916",
       "sourceCheckedAt": "2026-10-18",
       "sourceType": "primary",
@@ -146,6 +146,30 @@
         "sourceAuthor": "divine",
         "publishedAt": "2026-10-17T18:26:58.938Z"
       }
+    },
+    {
+      "code": "INFECTION",
+      "reward": "Free candy (amount unspecified)",
+      "status": "unverified",
+      "sourceName": "Developer Discord · David",
+      "sourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1562177859273891921",
+      "sourceCheckedAt": "2026-10-21",
+      "verifiedAt": null,
+      "expiresAt": null,
+      "expiredAt": null,
+      "evidenceUrl": null,
+      "rewardSource": null,
+      "rewardUnits": null,
+      "sourceType": "primary",
+      "sourceChannelName": "game-updates",
+      "sourceServerName": "Huss Valley",
+      "sourceServerId": "1551684901907210300",
+      "sourceChannelId": "1551691086504923206",
+      "sourceQuote": "Redeem INFECTION for free candy!",
+      "sourceAuthor": "David",
+      "sourceAuthorRole": "HUSS server tag; specific staff role not displayed",
+      "publishedAt": "2026-10-20T18:57:05.512Z",
+      "sourceMessageId": "1562177859273891921"
     }
   ]
 }

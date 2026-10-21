@@ -35,12 +35,18 @@ test('primary evidence requires exact spelling, publication and a message permal
   assert.throws(()=>validateCodes(data),/exact code excerpt/);
 });
 
-test('new announcement with unknown reward cannot supply calculator units',()=>{
-  const unknown=original.codes.find(c=>c.rewardUnits===null);
-  assert(unknown);
-  assert.equal(unknown.rewardSource,null);
-  assert.equal(unknown.verifiedAt,null);
-  if(unknown.requirements)assert(unknown.requirements.sourceUrl.startsWith('https://discord.com/channels/'));
+test('all primary announcements with unknown rewards stay out of calculator totals',()=>{
+  const unknown=original.codes.filter(c=>c.rewardUnits===null);
+  assert(unknown.length>0);
+  for(const item of unknown){
+    assert.equal(item.rewardSource,null);
+    assert.equal(item.verifiedAt,null);
+    assert(item.sourceType==='primary');
+    assert(item.sourceQuote.includes(item.code));
+    assert(item.sourceUrl.startsWith('https://discord.com/channels/'));
+    assert.equal(item.status,'unverified');
+    if(item.requirements)assert(item.requirements.sourceUrl.startsWith('https://discord.com/channels/'));
+  }
   const known=original.codes.filter(c=>c.status!=='expired'&&c.rewardUnits);
   assert(known.every(c=>Object.values(c.rewardUnits).every(value=>Number.isInteger(value)&&value>=0)));
 });

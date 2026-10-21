@@ -3,6 +3,19 @@
   "lastSeenMessageId": "1561099182511751279",
   "lastCodeMessageId": "1561082037517942916",
   "lastRequirementMessageId": "1561083118356529252",
-  "pendingChanges": [],
-  "evidenceFile": "2026-10-20.json"
+  "pendingChanges": [
+    {
+      "type": "new_code",
+      "code": "INFECTION",
+      "sourceMessageId": "1562177859273891921",
+      "sourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206/1562177859273891921",
+      "reward": "Free candy; amount unspecified",
+      "status": "unverified",
+      "publicationPending": true
+    }
+  ],
+  "evidenceFile": "2026-10-20.json",
+  "lastAttemptAt": "2026-10-21T08:43:47.000Z",
+  "lastAttemptStatus": "checked_pending_publication",
+  "lastAttemptEvidenceFile": "2026-10-21.json"
 }

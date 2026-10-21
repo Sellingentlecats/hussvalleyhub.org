@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-21T08:43:47.000Z",
+  "channelUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206",
+  "access": "User-authorized signed-in Chrome; official game-updates channel visibly rendered; channel tail inspected",
+  "startingCursor": "1561099182511751279",
+  "lastSuccessfulCheckAt": "2026-10-20T02:00:15.000Z",
+  "newMessagesAfterCursor": 1,
+  "messages": [
+    {
+      "messageId": "1562177859273891921",
+      "url": "https://discord.com/channels/1551684901907210300/1551691086504923206/1562177859273891921",
+      "author": "David",
+      "identity": "HUSS server tag; specific staff role not displayed",
+      "publishedAt": "2026-10-20T18:57:05.512Z",
+      "publishedAtLocal": "2026-10-21 02:57 Asia/Shanghai",
+      "excerpt": "Redeem INFECTION for free candy!",
+      "fullAnnouncement": "☣️ THE INFECTION HAS BEGUN ☣️\n@everyone\nPatient Zero is loose in Huss Valley...\n🧟 💉 Infected Knife Outbreak\nDavid, Albie, xMc and Tony are carrying the Infected Knife. If they catch you, you're infected too and you obtain The Infected Knife! Then it's YOUR job to spread it killing others with the Infected knife to spread it more! Track the outbreak live on the world map as it spreads server to server.\n🌍 📈 Global Milestones\nThe more players infected, the stronger EVERY Infected Knife gets: new VFX, a zombie kill effect and an exclusive title at 100%! Spread it yourself to earn personal rewards too.\n⛓️ NEW: SOULBINDER BUNDLE ⛓️\nDeath is only the beginning...\n💀 👻 Soul Reap ability: fallen teammates leave their soul behind. Reap it and their ghost follows you around... and they're NOT happy about it.\n🛡️ Every soul you carry is a free life. Get caught and a soul is spent instead, freezing the catcher in place!\n🔪 Includes the Soulbinder knife, the Soul Call emote, candy and more! Available now. Don't let their souls go to waste.\n😈 ✨ New Rarity: MYTHICAL\nThe rarest tier yet has arrived. Good luck.\n👀 🍬 New Crate Knives 🍬\n3 new Trick Crate knives\n3 new Treat Crate knives\n🆘 New Item! Lifeline!\nCatcher camping your body? Lifeline's got your back. Stay down too long with a catcher hovering over you and you'll get back up and back in the game. No more getting camped out of a round!\n🗺️ New Map\nThe Valley - no abilities\n🎁 New Code\nRedeem INFECTION for free candy!\nWho's getting infected first?\n👇"
+    }
+  ],
+  "result": {
+    "newCodes": [
+      {
+        "code": "INFECTION",
+        "reward": "Free candy; amount unspecified",
+        "rewardUnits": null,
+        "sourceMessageId": "1562177859273891921"
+      }
+    ],
+    "confirmedExpiredCodes": [],
+    "rewardChanges": [],
+    "staffReplies": [],
+    "deactivationAnnouncements": [],
+    "latestMessageId": "1562177859273891921",
+    "siteContentChanged": true
+  },
+  "note": "One new official announcement found after the cursor. Candy quantity is unspecified, so reward remains unknown and is excluded from totals. Cursor will advance only after build, push, deployment and live verification succeed. The earlier access-failure attempt is retained separately."
+}

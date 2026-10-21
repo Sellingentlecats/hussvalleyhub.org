@@ -4,7 +4,7 @@
   "placeId": "107535308163741",
   "communityId": "281831224",
   "observedOn": "2026-10-18",
-  "refreshStatus": "Developer Discord announcements were read on October 18, 2026 after the owner joined the server. All four listed code spellings have primary message links. Numeric rewards for the original three remain secondary reports. No in-game redemption test was performed.",
+  "refreshStatus": "Official Discord game-updates channel reviewed through 2026-10-21 after owner joined the server. Five code spellings have message-level primary links. The new INFECTION post gives free candy without an amount; numeric reward reports for the original three remain secondary IGN reports. No in-game redemption test was performed.",
   "publicReviewCompleted": true,
   "profile": {
     "sourceUrl": "https://www.roblox.com/games/107535308163741/Huss-Valley",
@@ -13,7 +13,7 @@
     "genre": "Action",
     "subgenre": "Battlegrounds & Fighting",
     "serverSize": 30,
-    "displayName": "[\ud83c\udf83] Huss Valley",
+    "displayName": "[🎃] Huss Valley",
     "avatarType": "MorphToR15",
     "privateServersAllowed": false,
     "createdAt": "2026-08-31T16:39:36.989Z",
@@ -69,10 +69,10 @@
       "name": "Developer Discord game-updates",
       "url": "https://discord.com/channels/1551684901907210300/1551691086504923206/",
       "kind": "Primary",
-      "observedOn": "2026-10-18",
-      "reviewState": "Announcement messages read",
-      "observed": "Staff messages list FIRSTCODEEVER, HUSS4CODE, tuesdaysRock and CANDY. The CANDY follow-up requires a new server. Each code links its original message.",
-      "limit": "Discord sign-in/server access may be required. These announcements do not establish current redemption success or the numeric rewards reported by IGN."
+      "observedOn": "2026-10-21",
+      "reviewState": "Official channel tail rechecked in signed-in Chrome",
+      "observed": "Messages after cursor 1561099182511751279 include David's October 21, 2026 announcement (1562177859273891921): “Redeem INFECTION for free candy!” The channel tail contained this announcement; no later reply or deactivation was visible. Existing code messages remain directly linked.",
+      "limit": "The announcement does not quantify candy or establish current redemption success. Discord sign-in/server access may be required."
     },
     {
       "name": "Huss Valley server invite",

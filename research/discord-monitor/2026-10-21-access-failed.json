@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-21T02:01:49.296Z",
+  "channelUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206",
+  "access": "User-authorized signed-in Chrome; initial Discord page remained on skeleton loading screen. A fresh official-channel tab was then opened, but it rendered black and browser control disconnected; no channel content could be read.",
+  "startingCursor": "1561099182511751279",
+  "lastSuccessfulCheckAt": "2026-10-20T02:00:15Z",
+  "newMessagesAfterCursor": null,
+  "result": {
+    "newCodes": [],
+    "confirmedExpiredCodes": [],
+    "rewardChanges": [],
+    "staffReplies": [],
+    "deactivationAnnouncements": [],
+    "latestMessageId": "1561099182511751279",
+    "siteContentChanged": false
+  },
+  "note": "All attempts failed before channel messages rendered. Cursor intentionally not advanced; pending messages must be reviewed next successful run.",
+  "recheckAt": "2026-10-21T08:08:48.405Z",
+  "recheckAccess": "Rediscovered the original Discord tab and opened a fresh tab in the same signed-in Chrome; both remained on Discord skeleton loading UI and message DOM capture timed out",
+  "recheckResult": "No channel messages were readable; cursor remains unchanged",
+  "retry": {
+    "attemptedAt": "2026-10-21T08:15:54.196Z",
+    "action": "Opened a fresh official-channel tab in the existing signed-in Chrome profile after the prior tab became unavailable.",
+    "result": "The new tab rendered black; subsequent browser-control connection closed before the Chrome application could be fully closed or messages could be read."
+  },
+  "latestRetry": {
+    "attemptedAt": "2026-10-21T08:19:14.002Z",
+    "action": "Retried after user reported remote access was enabled; attempted to rediscover Chrome and reset browser control.",
+    "result": "Both cua_repl calls failed immediately with Transport closed. No tab could be inspected and no Discord messages were read."
+  }
+}
