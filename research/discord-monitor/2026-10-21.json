@@ -33,5 +33,28 @@
     "latestMessageId": "1562177859273891921",
     "siteContentChanged": true
   },
-  "note": "One new official announcement found after the cursor. Candy quantity is unspecified, so reward remains unknown and is excluded from totals. Cursor will advance only after build, push, deployment and live verification succeed. The earlier access-failure attempt is retained separately."
+  "note": "One new official announcement was published and verified live. Candy quantity is unspecified, so reward remains unknown and excluded from totals. Cursor advanced after production deployment and browser checks succeeded. The initial access-failure attempt is preserved in 2026-10-21-access-failed.json.",
+  "deployment": {
+    "project": "hussvalleyhub",
+    "environment": "Production",
+    "branch": "codex/launch",
+    "commit": "f8adfc6",
+    "deploymentId": "380c52bf-7ad8-4fdb-ad74-f40167ed2d46",
+    "deploymentUrl": "https://380c52bf.hussvalleyhub-dkp.pages.dev",
+    "canonicalDomain": "https://hussvalleyhub.org",
+    "verifiedPages": [
+      "https://hussvalleyhub.org/codes/",
+      "https://hussvalleyhub.org/",
+      "https://hussvalleyhub.org/calculator/",
+      "https://hussvalleyhub.org/code-updates/"
+    ],
+    "verifiedAt": "2026-10-21T08:48:32.307Z",
+    "checks": {
+      "codes": "INFECTION present with direct announcement link and quantity-unspecified reward; five reported codes total",
+      "home": "five developer-announced codes displayed",
+      "calculator": "INFECTION is disabled/omitted because its numeric reward is unknown; totals remain 100 Gems, 5 spins, 4 Gem Boost items, 2 Coin Boost items and 2 cosmetics",
+      "expiredArchive": "No new expiry confirmed; existing empty confirmed-expired archive retained",
+      "updateHistory": "October 21 entry visible"
+    }
+  }
 }
