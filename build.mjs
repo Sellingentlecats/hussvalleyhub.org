@@ -28,7 +28,8 @@ const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta nam
 const file=is404?'404.html':p.path==='/'?'index.html':p.path.slice(1)+'index.html';await mkdir(new URL('./',new URL(file,root)),{recursive:true});await writeFile(new URL(file,root),html);}
 await cp(new URL('./site/style.css',import.meta.url),new URL('style.css',root));await cp(new URL('./site/app.js',import.meta.url),new URL('app.js',root));
 await writeFile(new URL('robots.txt',root),`User-agent: *\nAllow: /\nSitemap: ${domain}/sitemap.xml\n`);
-await writeFile(new URL('sitemap.xml',root),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.filter(p=>!p.canonical).map(p=>`<url><loc>${domain+p.path}</loc><lastmod>2026-10-18</lastmod></url>`).join('')}</urlset>`);
+const updatedRoutes=new Set(['/','/codes/','/calculator/','/code-updates/','/game/']);
+await writeFile(new URL('sitemap.xml',root),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.filter(p=>!p.canonical).map(p=>`<url><loc>${domain+p.path}</loc><lastmod>${updatedRoutes.has(p.path)?'2026-10-21':'2026-10-18'}</lastmod></url>`).join('')}</urlset>`);
 await writeFile(new URL('_headers',root),'/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n');
 config.routes=pages.filter(p=>!p.canonical).map(p=>({path:p.path,title:p.title}));await writeFile(new URL('./data/game.config.json',import.meta.url),JSON.stringify(config,null,2));
 console.log(`Built ${pages.length} pages and a 404. New visual system; retained research unchanged.`);
