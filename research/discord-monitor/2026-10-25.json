@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-25T02:03:39.883Z",
+  "channelUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206",
+  "access": "Rediscovered the user-authorized signed-in Chrome channel tab, but reading it failed: CDP timed out waiting for Runtime.enable; no channel messages were observable.",
+  "startingCursor": "1562177859273891921",
+  "lastSuccessfulCheckAt": "2026-10-24T02:00:05.000Z",
+  "newMessagesAfterCursor": null,
+  "result": {
+    "newCodes": [],
+    "confirmedExpiredCodes": [],
+    "rewardChanges": [],
+    "staffReplies": [],
+    "deactivationAnnouncements": [],
+    "latestMessageId": null,
+    "siteContentChanged": false
+  },
+  "note": "Channel access failed before any messages could be read. This is not a no-change check. Existing code data, production content and successful cursor are preserved for retry."
+}
