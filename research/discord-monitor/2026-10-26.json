@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-26T02:00:04Z",
+  "channelUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206",
+  "access": "Rediscovered the authorized signed-in Chrome channel tab; it rendered only a black/empty Discord shell. A fresh tab opened directly to the same channel and also exposed no message list (accessibility tree had only the Discord web area). No channel messages were observable.",
+  "startingCursor": "1562177859273891921",
+  "lastSuccessfulCheckAt": "2026-10-24T02:00:05.000Z",
+  "newMessagesAfterCursor": null,
+  "result": {
+    "newCodes": [],
+    "confirmedExpiredCodes": [],
+    "rewardChanges": [],
+    "staffReplies": [],
+    "deactivationAnnouncements": [],
+    "latestMessageId": null,
+    "siteContentChanged": false
+  },
+  "note": "Channel access failed before any messages could be read. This is not a no-change check. Existing code data, production content and successful cursor are preserved for retry."
+}
