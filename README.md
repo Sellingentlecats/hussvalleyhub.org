@@ -40,3 +40,7 @@ Repository: https://github.com/Sellingentlecats/hussvalleyhub.org. Existing Clou
 ## Primary code provenance
 
 Each code carries sourceType, sourceQuote, author/role, server/channel/message IDs and an original-message permalink. Source review and publication timestamps stay in data for audits; visible code-date badges and Unverified/untested labels are omitted at the owner’s request. No entry is labelled tested or guaranteed working. Announcement and reward sources are separate. data/primary-source-audit.json records the completed follow-up after Discord access.
+
+## October 26 code update
+
+Added TRICKORTREAT and SPOOKYSEASON from the owner-provided Discord appshot of divine’s October 25 announcement. Rewards and expiry were not specified; neither code has been redemption-tested or included in reward totals. The source links open game-updates because a message permalink could not be obtained. Publication/edit timestamps have minute precision. Existing message-level primary evidence remains unchanged.

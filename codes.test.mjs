@@ -28,9 +28,10 @@ test('rendered code strings and rewards are escaped rather than interpreted as H
 
 test('primary evidence requires exact spelling, publication and a message permalink',()=>{
   const data=structuredClone(original);
+  data.codes[0]=structuredClone(original.codes.find(c=>c.code==='tuesdaysRock'));
   data.codes[0].sourceUrl='https://discord.com/invite/hussvalleyhq';
   assert.throws(()=>validateCodes(data),/message permalink/);
-  data.codes[0]=structuredClone(original.codes[0]);
+  data.codes[0]=structuredClone(original.codes.find(c=>c.code==='tuesdaysRock'));
   data.codes[0].sourceQuote='Redeem TUESDAYSROCK for a free reward!';
   assert.throws(()=>validateCodes(data),/exact code excerpt/);
 });
@@ -41,7 +42,7 @@ test('all primary announcements with unknown rewards stay out of calculator tota
   for(const item of unknown){
     assert.equal(item.rewardSource,null);
     assert.equal(item.verifiedAt,null);
-    assert(item.sourceType==='primary');
+    assert(['primary','primary-screenshot'].includes(item.sourceType));
     assert(item.sourceQuote.includes(item.code));
     assert(item.sourceUrl.startsWith('https://discord.com/channels/'));
     assert.equal(item.status,'unverified');
@@ -49,4 +50,15 @@ test('all primary announcements with unknown rewards stay out of calculator tota
   }
   const known=original.codes.filter(c=>c.status!=='expired'&&c.rewardUnits);
   assert(known.every(c=>Object.values(c.rewardUnits).every(value=>Number.isInteger(value)&&value>=0)));
+});
+
+
+test('screenshot announcements retain exact text and attribution without inventing message IDs',()=>{
+  const data=structuredClone(original);
+  const item=data.codes.find(c=>c.sourceType==='primary-screenshot');
+  assert(item);
+  assert.equal(item.sourceMessageId,undefined);
+  validateCodes(data);
+  item.sourceQuote='Unrelated announcement';
+  assert.throws(()=>validateCodes(data),/Screenshot evidence/);
 });
