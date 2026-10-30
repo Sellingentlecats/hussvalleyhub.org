@@ -8,5 +8,6 @@ export function announcementEvidence(code,{compact=false}={}){
 }
 
 export function rewardEvidence(code){
+  if(code.rewardInAnnouncement)return '<small class="reward-source">Reward stated in the developer announcement. Excluded from calculator totals.</small>';
   return code.rewardSource?`<small class="reward-source">Reward amounts: <a href="${e(code.rewardSource.url)}">${e(code.rewardSource.name)}</a> (secondary source). Not stated in the linked announcement.</small>`:'<small class="reward-source">No numeric reward is stated in this announcement. Excluded from calculator totals.</small>';
 }

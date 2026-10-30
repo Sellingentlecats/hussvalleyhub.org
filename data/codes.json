@@ -1,6 +1,32 @@
 {
-  "sourceReviewedAt": "2026-10-26",
+  "sourceReviewedAt": "2026-10-30",
   "codes": [
+    {
+      "code": "GhostKey",
+      "reward": "1 Ghost Key and 250 candy",
+      "status": "unverified",
+      "sourceName": "Developer Discord \u00b7 David",
+      "sourceUrl": "https://discord.com/channels/1551684901907210300/1551691086504923206",
+      "sourceCheckedAt": "2026-10-30",
+      "sourceType": "primary-screenshot",
+      "sourceQuote": "FREE CODE: GhostKey\nRedeem it for 1 Ghost Key and 250 candy.",
+      "sourceAuthor": "David",
+      "sourceAuthorRole": "HUSS server tag; specific staff role not displayed",
+      "sourceServerName": "Huss Valley",
+      "sourceServerId": "1551684901907210300",
+      "sourceChannelName": "game-updates",
+      "sourceChannelId": "1551691086504923206",
+      "publishedAt": "2026-10-28T03:09:00+08:00",
+      "sourceTimestampPrecision": "minute",
+      "sourceEvidence": "User-provided Discord appshot, 2026-10-30; source URL opens the announcement channel.",
+      "verifiedAt": null,
+      "expiresAt": null,
+      "expiredAt": null,
+      "evidenceUrl": null,
+      "rewardSource": null,
+      "rewardUnits": null,
+      "rewardInAnnouncement": true
+    },
     {
       "code": "TRICKORTREAT",
       "reward": "Reward not specified in the announcement",
